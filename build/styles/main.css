@@ -1,0 +1,39 @@
+body {
+  background: #2E2633; }
+
+.center {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  width: 680px;
+  height: 240px;
+  text-align: center; }
+
+i {
+  font-size: 78px;
+  color: #DCE9BE;
+  line-height: 95px; }
+
+h1 {
+  font-size: 100px;
+  color: #DCE9BE;
+  line-height: 72px;
+  margin: 0; }
+
+i:after, i:before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 6px;
+  background: #DCE9BE;
+  width: 265px;
+  top: 126px; }
+
+i:after {
+  right: 0; }
+
+i:before {
+  left: 0; }

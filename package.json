@@ -1,0 +1,37 @@
+{
+  "name": "rollup-babel-pug-setup",
+  "version": "1.0.0",
+  "description": "Rollup project template",
+  "main": "rollup.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "concurrently": "^3.4.0",
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "http-server": "^0.9.0",
+    "rollup": "^0.39.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-eslint": "^3.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "run-sequence": "^1.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "dev": "concurrently \"gulp watch\" \"node node_modules/http-server/bin/http-server build -c-1\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://radixzz@github.com/radixzz/rollup-babel-pug-setup.git"
+  },
+  "author": "Ivan Juarez N",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radixzz/rollup-babel-pug-setup/issues"
+  },
+  "homepage": "https://github.com/radixzz/rollup-babel-pug-setup#readme"
+}
